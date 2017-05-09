@@ -14,6 +14,7 @@ services:
     - /run:/run
     - /var/run:/var/run
     - /dev:/host/dev
+    - /etc/ceph:/etc/ceph
     - /lib/modules:/lib/modules:ro
     - /var/lib/rancher/volumes:/var/lib/rancher/volumes:shared
     logging:
