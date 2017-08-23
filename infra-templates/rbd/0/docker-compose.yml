@@ -3,7 +3,7 @@ services:
   rbd-driver:
     privileged: true
     network_mode: host
-    image: niusmallnan/storage-rbd:v0.8.5
+    image: rancher/storage-rbd:v0.8.6
     labels:
       io.rancher.scheduler.global: 'true'
       io.rancher.container.create_agent: 'true'
